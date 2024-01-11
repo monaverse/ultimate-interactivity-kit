@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 3771072600
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: portals
+      Dependencies: {}
+    Info_1:
+      Name: space
+      Dependencies: {}
+    Info_2:
+      Name: artifacts
+      Dependencies: {}
