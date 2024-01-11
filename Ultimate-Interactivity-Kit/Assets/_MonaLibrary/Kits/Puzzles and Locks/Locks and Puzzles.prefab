@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4322207810346817250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3279943714509940296}
+  m_Layer: 0
+  m_Name: Locks and Puzzles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3279943714509940296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322207810346817250}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -83, y: 0, z: -80.399994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1692319153201117412}
+  - {fileID: 1719703934099103088}
+  - {fileID: 3736895012765531788}
+  - {fileID: 5559751900186857176}
+  - {fileID: 3707128473299467313}
+  - {fileID: 2086942552483476091}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1001 &1123293972994563673
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3279943714509940296}
+    m_Modifications:
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.727
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192185886751813649, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+      propertyPath: m_Name
+      value: Puzzle Lock Module - Sliding Doors
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+--- !u!4 &2086942552483476091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1396382909006425122, guid: 2908bbefb5d21b944ad61cf6d6ca0a71, type: 3}
+  m_PrefabInstance: {fileID: 1123293972994563673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1989462922921631977
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3279943714509940296}
+    m_Modifications:
+    - target: {fileID: 5031655548413567970, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_Name
+      value: Puzzle Lock Module - Swinging Doors
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.727
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+--- !u!4 &5559751900186857176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6247558220114374193, guid: c492007d6787c054983ee2f486c573b6, type: 3}
+  m_PrefabInstance: {fileID: 1989462922921631977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5871383773648964109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3279943714509940296}
+    m_Modifications:
+    - target: {fileID: 6631213662332822233, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_Name
+      value: Keypad Lock Module - Sliding Doors
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+--- !u!4 &3736895012765531788 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7108727881647764609, guid: 4f38ef46c6a47fc4c925519580601046, type: 3}
+  m_PrefabInstance: {fileID: 5871383773648964109}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6142456305801420159
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3279943714509940296}
+    m_Modifications:
+    - target: {fileID: 2567585552339851027, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_Name
+      value: Puzzle Lock Module - Swinging Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.727
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+--- !u!4 &3707128473299467313 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7371335700566171982, guid: b6f3286d27fde1e47833e5f8d3cb9e4d, type: 3}
+  m_PrefabInstance: {fileID: 6142456305801420159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7844132245252769083
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3279943714509940296}
+    m_Modifications:
+    - target: {fileID: 2296095672987251024, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_Name
+      value: Keypad Lock Module - Swinging Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+--- !u!4 &1719703934099103088 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8864888546971555915, guid: 22ca67be6a2c9384a94b0b8534163646, type: 3}
+  m_PrefabInstance: {fileID: 7844132245252769083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8175765008848049169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3279943714509940296}
+    m_Modifications:
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755992563729119361, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+      propertyPath: m_Name
+      value: Keypad Lock Module - Swinging Doors
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+--- !u!4 &1692319153201117412 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7352818778701343989, guid: 6c019fb625a3eb649b6580a0e4428ea6, type: 3}
+  m_PrefabInstance: {fileID: 8175765008848049169}
+  m_PrefabAsset: {fileID: 0}
